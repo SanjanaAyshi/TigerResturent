@@ -1,0 +1,23 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<div class="container mt-4 d-flex flex-warp">
+  <div class="col-md-6 mt-5">
+    <h1>Food so fresh the chef has to run outside and shout</h1>
+    <p>
+      Embark on a gastronomic journey where every bite is a symphony of flavors
+      meticulously crafted by our passionate chefs. Immerse yourself in a warm,
+      inviting ambiance that complements the richness of our culinary creations.
+      At TigerFood, we transform dining into an unforgettable experience.
+    </p>
+  </div>
+  <!-- <div class="col-md-1"></div> -->
+  <div class="col-md-6 m-4 p-1">
+    <img
+      class="rounded img-fluid"
+      src="{% static 'alex-haney-CAhjZmVk5H4-unsplash.jpg' %}"
+      alt=""
+      srcset=""
+      width="90%"
+    />
+  </div>
+</div>
+{% endblock %}
